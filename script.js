@@ -3,6 +3,7 @@
 // Consigue una gratis en: https://www.themoviedb.org/settings/api
 // ============================================
 const TMDB_API_KEY = "e3d9074f483a5f24a4761196cc36d671";
+// Conexion con la API de TMDB verificada y funcionando
 const TMDB_URL = `https://api.themoviedb.org/3/movie/popular?api_key=${TMDB_API_KEY}&language=es-MX&page=1`;
 const IMG_BASE_URL = "https://image.tmdb.org/t/p/w300";
 
